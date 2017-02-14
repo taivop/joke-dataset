@@ -38,10 +38,10 @@ Additional fields:
 
 ```json
 {
+        "title": "My boss said to me, \"you're the worst train driver ever. How many have you derailed this year?\"",
         "body": "I said, \"I'm not sure; it's hard to keep track.\"",
         "id": "5tyytx",
-        "score": 3,
-        "title": "My boss said to me, \"you're the worst train driver ever. How many have you derailed this year?\""
+        "score": 3
     }
 ```
 
@@ -56,8 +56,8 @@ Additional fields:
 
 ```json
 {
-        "body": "A blonde is walking down the street with her blouse open, exposing one of her breasts. A nearby policeman approaches her and remarks, \"Ma'am, are you aware that I could cite you for indecent exposure?\" \"Why, officer?\" asks the blonde. \"Because your blouse is open and your breast is exposed.\" \"Oh my goodness,\" exclaims the blonde, \"I must have left my baby on the bus!\"",
         "category": "Blonde Jokes",
+        "body": "A blonde is walking down the street with her blouse open, exposing one of her breasts. A nearby policeman approaches her and remarks, \"Ma'am, are you aware that I could cite you for indecent exposure?\" \"Why, officer?\" asks the blonde. \"Because your blouse is open and your breast is exposed.\" \"Oh my goodness,\" exclaims the blonde, \"I must have left my baby on the bus!\"",
         "id": 14,
         "rating": 3.5
     }
@@ -75,10 +75,10 @@ Additional fields:
 
 ```json
 {
+        "title": "Infants vs Adults",
         "body": "Do infants enjoy infancy as much as adults enjoy adultery?",
         "category": "One Liners",
-        "id": 17,
-        "title": "Infants vs Adults"
+        "id": 17
     }
 ```
 
