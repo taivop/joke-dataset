@@ -26,15 +26,15 @@ Obviously they are not all funny; to find the best ones, sort on the relevant ad
 Note that the title is in part of the joke many cases (especially for Reddit submissions).
 
 ### reddit_jokes.json
-Scraped from [/r/jokes](https://www.reddit.com/r/jokes). Contains all submissions to the subreddit as of 14.02.2017.
+Scraped from [/r/jokes](https://www.reddit.com/r/jokes). Contains all submissions to the subreddit as of 13.02.2017.
 
 These jokes may have additional comments in them ([example](https://www.reddit.com/r/Jokes/comments/5k9tgu/this_is_the_dirty_joke_my_85yo_grandad_told_to/)).
 
 Additional fields:
 
-* id -- submission ID in the subreddit.
-* score -- post score displayed on Reddit.
-* title -- title of the submission.
+* `id` -- submission ID in the subreddit.
+* `score` -- post score displayed on Reddit.
+* `title` -- title of the submission.
 
 ```json
 {
@@ -50,9 +50,9 @@ Scraped from [stupidstuff.org](stupidstuff.org/jokes/).
 
 Additional fields:
 
-* id -- page ID on stupidstuff.org.
-* category -- see available categories [here](http://stupidstuff.org/jokes/category.htm).
-* rating -- mean user rating on a scale of 1 to 5.
+* `id` -- page ID on stupidstuff.org.
+* `category` -- see available categories [here](http://stupidstuff.org/jokes/category.htm).
+* `rating` -- mean user rating on a scale of 1 to 5.
 
 ```json
 {
@@ -69,9 +69,9 @@ Scraped from [wocka.com](http://wocka.com/).
 
 Additional fields:
 
-* id -- page ID on wocka.com.
-* category -- see available categories [here](http://www.wocka.com/).
-* title -- title of the joke.
+* `id` -- page ID on wocka.com.
+* `category` -- see available categories [here](http://www.wocka.com/).
+* `title` -- title of the joke.
 
 ```json
 {
