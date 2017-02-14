@@ -1,6 +1,6 @@
-# A dataset of English plaintext jokes.
+# A dataset of English plaintext jokes
 
-There are about 200k jokes in this database from three sources.
+There are about 208 000 jokes in this database from three sources.
 
 I make no claim on ownership of these files, nor do I necessarily endorse the jokes in them. This dataset is provided for research purposes (see License section below).
 
@@ -21,12 +21,14 @@ TOTAL             |  208K jokes | 8.91M tokens
 ## Format
 Each file is a JSON document, containing a flat list of joke objects. Each joke object always has the `body` field with additional fields varying based on the dataset, described below.
 
+Obviously they are not all funny; to find the best ones, sort on the relevant additional fields.
+
 Note that the title is in part of the joke many cases (especially for Reddit submissions).
 
 ### reddit_jokes.json
 Scraped from [/r/jokes](https://www.reddit.com/r/jokes). Contains all submissions to the subreddit as of 14.02.2017.
 
-These jokes may have additional comments in them ([example](https://www.reddit.com/r/Jokes/comments/5k9tgu/this_is_the_dirty_joke_my_85yo_grandad_told_to/)). Obviously they are not all funny; to find the best ones, sort on `score`.
+These jokes may have additional comments in them ([example](https://www.reddit.com/r/Jokes/comments/5k9tgu/this_is_the_dirty_joke_my_85yo_grandad_told_to/)).
 
 Additional fields:
 
@@ -96,6 +98,6 @@ If you use this dataset in academic work, please cite as follows:
         author={Pungas, Taivo},
         year={2017},
         publisher = {GitHub},
-        journal = {GitHub repository},
+        journal = {GitHub repository}
 }
 ```
