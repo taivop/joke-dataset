@@ -46,7 +46,7 @@ Additional fields:
 ```
 
 ### stupidstuff.json
-Scraped from [stupidstuff.org](stupidstuff.org/jokes/).
+Scraped from [stupidstuff.org](http://stupidstuff.org/jokes/).
 
 Additional fields:
 
