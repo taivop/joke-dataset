@@ -4,6 +4,8 @@ There are about 208 000 jokes in this database scraped from three sources.
 
 I make no claim on ownership of these files, nor do I necessarily endorse the jokes in them. This dataset is provided for research purposes (see License section below).
 
+This repository was archived in December 2022 and receives no further support.
+
 
 ## Files
 Currently the dataset contains jokes from three sources, each in a different file.
